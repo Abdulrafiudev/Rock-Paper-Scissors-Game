@@ -32,6 +32,16 @@ body{
   column-gap: 0.625rem;
   flex: 1;
 }
+@media (max-width:380px){
+  .button_icon{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+}
 .js_result{
   font-size: 1.5625rem;
   font-weight: bold;
